@@ -16,8 +16,11 @@ so server is nothing just machine like our computer, which is running 24x7 and h
 
 ## How to push existing file into git?
 echo "# deployTest" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/thisisashishshah/deployTest.git
